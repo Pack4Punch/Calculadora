@@ -27,6 +27,7 @@ namespace Calculadora
         {
             InitializeComponent();
         }
+       
 
 
 
@@ -46,9 +47,9 @@ namespace Calculadora
         }
 
         //numeros 
-        private void AdicionarNumero()
+        private void AdicionarNumero(string numero)
         {
-            //Se acabou de calcular, começa um novo numero
+            //Se acabou de calcular, comeÃ§a um novo numero
             if (novoCalculo)
             {
                 txtResultado.Text = "";
@@ -101,5 +102,14 @@ namespace Calculadora
         {
             AdicionarNumero("9");
         }
+
+        //Virgula
+        
+
+
+
+
+
+        
     }
 }
